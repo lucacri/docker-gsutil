@@ -2,7 +2,7 @@ FROM lucacri/alpine-base:latest
 
 LABEL maintainer="lucacri@gmail.com"
 
-ARG GCLOUD_VERSION=192.0.0
+ARG GCLOUD_VERSION=240.0.0
 
 RUN apk upgrade --update-cache && \
     apk add --update \
